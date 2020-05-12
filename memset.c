@@ -18,7 +18,7 @@
 _._._._._._._._._._._._._._._._._._._._._.*/
 
 #include <unistd.h>
-#include <string.h>
+
 
 int ft_strlen(char *str)
 {
@@ -26,7 +26,7 @@ int ft_strlen(char *str)
 
     while (str[i] != '\0')
         i++;
-        return(0);
+        return(i);
 }
 
 int main(int argc, char *argv[])
